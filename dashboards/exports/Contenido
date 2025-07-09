@@ -1,0 +1,5 @@
+
+dashboards/exports/
+├── distribucion_sentimiento.png       # Gráfico de barras por sentimiento
+├── nube_palabras_clientes.png         # WordCloud de comentarios
+├── tendencia_satisfaccion.pdf         # Evolución temporal exportada
