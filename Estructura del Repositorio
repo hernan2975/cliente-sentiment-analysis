@@ -1,0 +1,38 @@
+🗂️ Estructura de Repositorio: cliente-sentiment-analysis
+
+cliente-sentiment-analysis/
+│
+├── README.md
+├── requirements.txt
+├── data/
+│   ├── raw/               # Comentarios originales extraídos
+│   ├── processed/         # Datos limpios y listos para análisis
+│   └── sources/           # Formularios, correos, JSON API, etc.
+│
+├── notebooks/
+│   ├── 01-exploracion.ipynb         # Estadísticas iniciales y validación
+│   ├── 02-analisis-sentimiento.ipynb # NLTK / spaCy
+│   └── 03-dashboard-prototipo.ipynb  # Visualización preliminar
+│
+├── src/
+│   ├── etl/
+│   │   ├── extract.py       # Scraping / APIs / batch reads
+│   │   ├── transform.py     # Limpieza, normalización, tokenización
+│   │   └── load.py          # Exportación a CSV / base de datos
+│   │
+│   ├── sentiment/
+│   │   ├── nlp_pipeline.py       # Tokenización, stemming, lematización
+│   │   └── analyzer.py           # Sentiment classifier con NLTK / spaCy
+│   │
+│   └── utils/
+│       └── helpers.py       # Funciones compartidas, logs, configuración
+│
+├── dashboards/
+│   ├── powerbi/
+│   │   └── satisfaction.pbix    # Mapa de calor, nube de palabras, tendencias
+│   └── exports/                 # Visuales exportadas como PNG / PDF
+│
+└── docs/
+    ├── diseño-dashboard.md
+    ├── guía-etl.md
+    └── metodologia-analisis.md
