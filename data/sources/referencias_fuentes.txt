@@ -1,0 +1,7 @@
+
+# Fuentes de datos utilizadas para este proyecto
+
+- Encuestas online recibidas desde sistema de ecommerce.
+- Comentarios extraídos de redes sociales mediante scraping y API oficial.
+- Correos electrónicos anonimizados por sistema de soporte.
+- Formularios post-venta en formato XLS.
