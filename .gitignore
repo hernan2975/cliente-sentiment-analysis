@@ -1,0 +1,33 @@
+
+# Entornos virtuales y variables de entorno
+venv/
+.env
+*.env
+
+# Archivos de configuración y secretos
+*.key
+*.pem
+*.log
+
+# Archivos generados por notebooks
+.ipynb_checkpoints
+
+# Datos crudos y procesados (no subir sensibles ni pesados)
+data/raw/
+data/processed/
+
+# Dashboards y visuales exportadas
+*.pbix
+dashboards/exports/
+
+# Cachés y compilados
+__pycache__/
+*.pyc
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Editor y entorno
+.vscode/
+.idea/
