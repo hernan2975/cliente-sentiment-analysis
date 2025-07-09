@@ -1,0 +1,5 @@
+
+id,lemas,sentimiento,entidades
+101,"['servicio', 'excelente', 'rápido', 'cordial']",Positivo,"[]"
+102,"['producto', 'funcionar', 'malo', 'experiencia']",Negativo,"[]"
+103,"['seguro', 'atender', 'bien', 'regular']",Neutral,"[]"
