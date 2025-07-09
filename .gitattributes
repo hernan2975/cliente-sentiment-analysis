@@ -1,0 +1,14 @@
+
+# Dif legible para notebooks
+*.ipynb linguist-language=Jupyter Notebook
+
+# Textos con codificación estándar
+*.py text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+
+# Archivos binarios (no diffs)
+*.pbix binary
+*.png binary
+*.jpg binary
